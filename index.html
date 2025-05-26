@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gerador BABADOO com IA</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Gerador BABADOO com IA</h1>
+    <p>Cole seu texto e a IA vai extrair benefícios automaticamente:</p>
+
+    <textarea id="textoOriginal" placeholder="Exemplo:
+🚨 OFERTA! > Whey Protein 1kg
+de: ~R$ 299,90~ por R$ 199,90
+👉 https://s.shopee.com.br/xyz"></textarea>
+
+    <button id="gerarBtn">GERAR COM IA</button>
+    <button id="gerarOfflineBtn">GERAR SEM IA</button>
+
+    <div class="result" id="resultado">
+      <div id="loading" style="display:none;">
+        <p>🧠 IA analisando produto...</p>
+      </div>
+      <div id="output"></div>
+    </div>
+
+    <button id="copiarBtn" style="display:none;">📋 COPIAR OFERTA</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
